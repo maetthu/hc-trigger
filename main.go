@@ -34,7 +34,7 @@ type status struct {
 }
 
 func usage() {
-	log.Fatalln("Usage: API_KEY=whatever hc-trigger UID cmd")
+	log.Fatalln("Usage: API_KEY=read-only-api-key hc-trigger UID cmd [...]")
 }
 
 func main() {
